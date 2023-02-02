@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'josefin Sans','sans-serif';
+}
+
+@media screen and (max-width: 576px) {
+    #about .col-md-4{
+       margin-left: 5rem;
+    }
+    #gallery img{
+        margin-top: 1rem;
+        
+    }
+    #contact h3{
+        text-align: center;
+        margin-right: 3rem;
+    }
+    #contact p{
+        text-align: center;
+    }
+    #contact .form{
+        margin-left: 3.5rem;
+    }
+    #hero .navbar{
+        display: block;
+        text-align: center;
+    }
+    #gallery .img-fluid{
+        width: 300px;
+        margin-top: 2rem;
+    }
+}
+#hero{
+    height: 800px;
+    background-image: url('../images/rahim.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+    
+}
+
+.navbar-nav{
+ justify-content: center;
+ margin-left: 25%;
+}
+
+.nav-item{
+    padding: 12px;
+}
+.nav-link{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 10px 12px 12px rgb(3, 5, 20);
+    
+}
+.nav-link:hover{
+    background-color: yellow;
+}
+.navbar-toggler-icon{
+    font-size: 40px;
+    background-color: white;
+    padding: 0%;
+}
+
+.content{
+    margin-top: 12%;
+    margin-left: 12%;
+    color: rgb(250, 252, 251);
+    text-shadow: 10px 12px 8px rgba(24, 5, 5, 0.758);
+}
+#about{
+    height: 100%;
+    background-color: white;
+    color: black;
+}
+#about img{
+    height: 350px;
+    width: 300px;
+}
+#skills{
+    height: 100%;
+    background-color: white;
+    color: black;
+    
+}
+
+#gallery{
+    height: 100%;
+    background-color: white;
+    color: black;
+    margin-top: 1rem;
+}
+#gallery img{
+    transition: 2s;
+    height: 300px;
+    width: 100%;
+    box-shadow: 0 5px 10px 0 ;
+}
+#gallery img:hover{
+    transform: scale(1.1);
+    
+}
+.bi-camera-fill{
+   font-size: 50px;
+   color: rgb(4, 21, 43);
+   
+}
+
+#contact{
+    height: 100%;
+    background-color: white;
+    color: black;
+}
+#contact .card{
+    background-color: coral;
+}
+
+.form-control{
+   height: 60px;
+   width: 280px;
+}
+.form-control2{
+    height: 60px;
+    width: 280px;
+    padding-bottom: 40px;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.form-control1{
+    height: 150px;
+    width: 280px;
+    text-align: left;
+    font-weight: 60px;
+    padding-bottom: 120px;
+    margin-top: 1rem;
+}
+button{
+    height: 80px;
+    width: 200px;
+    background-color: rgb(58, 137, 227);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: white;
+    margin-top: 1rem;
+    border: none;
+    outline: none;
+}
+.text{
+    margin-left: 3.5rem;
+}
+.icon{
+    font-size: 20px;
+    margin-right: 1rem;
+    border: 1px solid white;
+    border-radius: 3rem;
+    padding: 8px;
+    background-color: white;
+    color: crimson;
+}
+.icon:hover{
+    background-color: rgb(18, 158, 213);
+}
+#footer{
+    margin-top: 3rem;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+#footer ul{
+    list-style-type: none;
+    display: flex;
+}
+#footer ul li{
+    padding: 4px;
+}
+#footer ul li a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+}
+.social-link a{
+    color: white;
+}
+
+ .social-link i{
+    font-size: 40px;
+    padding: 8px;
+ }
+ .social-link i:hover{
+    color: rgba(154, 247, 68, 0.354);
+ }
+ .bi-arrow-up-circle{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    float: right;
+ }
